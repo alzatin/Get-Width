@@ -26,8 +26,8 @@
     },
     {
       "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.16,
+      "x": 0.031349999999999996,
+      "y": 0.19,
       "uniqueID": "id-1008",
       "name": "InputShape",
       "type": "geometry"
@@ -67,6 +67,11 @@
         {
           "name": "Font Size",
           "ioValue": 10
+        },
+        {
+          "name": "Text",
+          "ioValue": "10.000002",
+          "currentEquation": "Lorem Ipsum"
         }
       ],
       "fontFamily": "ANTON",
@@ -80,7 +85,7 @@
       "name": "README",
       "ioValues": [
         {
-          "name": "value",
+          "name": "geometry",
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
@@ -123,20 +128,30 @@
       "name": "README",
       "ioValues": [
         {
-          "name": "value",
+          "name": "geometry",
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
       "readMeText": "Height",
       "global": true
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.8563218390804597,
+      "y": 0.2719033232628399,
+      "uniqueID": "id-1069",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "Test svg",
+      "global": true
     }
   ],
   "allConnectors": [
-    {
-      "ap2Name": "shape",
-      "ap1ID": "id-1008",
-      "ap2ID": "id-1011"
-    },
     {
       "ap2Name": "shape",
       "ap1ID": "id-1008",
@@ -153,19 +168,19 @@
       "ap2ID": "id-1023"
     },
     {
-      "ap2Name": "value",
-      "ap1ID": "id-1042",
-      "ap2ID": "id-1027"
+      "ap2Name": "shape",
+      "ap1ID": "id-1016",
+      "ap2ID": "id-1011"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1023",
+      "ap2ID": "id-1069"
     },
     {
       "ap2Name": "number or geometry",
       "ap1ID": "id-1042",
       "ap2ID": "id-1006"
-    },
-    {
-      "ap2Name": "value",
-      "ap1ID": "id-1047",
-      "ap2ID": "id-1050"
     }
   ],
   "unitsKey": "Unitless",
