@@ -129,6 +129,13 @@
       ],
       "readMeText": "Height",
       "global": true
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.8133333333333334,
+      "y": 0.743202416918429,
+      "uniqueID": "id-1069",
+      "value": 10
     }
   ],
   "allConnectors": [
@@ -153,11 +160,6 @@
       "ap2ID": "id-1047"
     },
     {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-1023",
-      "ap2ID": "id-1006"
-    },
-    {
       "ap2Name": "value",
       "ap1ID": "id-1042",
       "ap2ID": "id-1027"
@@ -166,6 +168,11 @@
       "ap2Name": "value",
       "ap1ID": "id-1047",
       "ap2ID": "id-1050"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-1069",
+      "ap2ID": "id-1006"
     }
   ],
   "unitsKey": "Unitless",
