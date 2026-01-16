@@ -8,8 +8,6 @@
 
  Width
 
-**Value:** 10.000002
-
 Height
 
 **Value:** 10.000002
